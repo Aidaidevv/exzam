@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+body {
+  background: gray;
+}
+h1,
+a,
+p,
+button {
+  color: #fff;
+}
+#header .container {
+  width: 80%;
+  max-width: 1420px;
+  margin-inline: auto;
+  padding-inline: 40px;
+}
+.container {
+  width: 80%;
+  max-width: 1420px;
+  margin-inline: auto;
+  padding-inline: 40px;
+}
+#header {
+  /* position: sticky;
+  top: 0;
+  backdrop-filter: blur(4px); */
+  padding-block: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+nav a {
+  font-size: clamp(0.75rem, 0.677rem + 0.36vw, 1rem);
+}
+#main {
+  padding-block: 60px;
+}
+.main {
+  display: flex;
+  position: relative;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main-text h1 {
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1.125rem, 0.634rem + 2.45vw, 2.813rem);
+  p {
+    font-size: clamp(0.875rem, 0.584rem + 1.45vw, 1.875rem);
+  }
+}
+.main-btn {
+  display: flex;
+  gap: 12px;
+}
+.main-btn button {
+  padding: 16px 40px;
+  border-radius: 7px;
+  background: #d10ed1;
+}
+.main-time {
+  display: flex;
+  gap: 55px;
+
+  h1 {
+    font-size: clamp(0.75rem, 0.514rem + 1.18vw, 1.563rem);
+  }
+  span {
+    font-size: clamp(0.75rem, 0.641rem + 0.55vw, 1.125rem);
+  }
+}
+.img1 {
+  width: 45%;
+  position: absolute;
+  top: -45px;
+  right: -25px;
+}
+.img2 {
+  width: 5%;
+  position: absolute;
+  top: 75px;
+  left: 597px;
+}
+#more {
+  padding-block: 100px;
+}
+.more {
+  display: flex;
+  gap: 200px;
+}
+.more-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  p {
+    font-size: clamp(0.75rem, 0.641rem + 0.55vw, 1.125rem);
+  }
+}
+.main-text button {
+  padding: 16px 40px;
+  border-radius: 7px;
+  background: #d10ed1;
+}
+.img4 {
+  width: 40%;
+}
+.img3 {
+  width: 55%;
+  font-size: clamp(1rem, 0.655rem + 1.73vw, 2.188rem);
+}
+#how {
+  padding-block: 40px;
+}
+.how-title {
+  text-align: center;
+  p {
+    font-size: clamp(0.75rem, 0.641rem + 0.55vw, 1.125rem);
+  }
+}
+.how-box {
+  img {
+    width: 25%;
+  }
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #090823;
+  padding: 20px;
+  border-radius: 20px;
+
+  h1 {
+    font-size: clamp(0.875rem, 0.766rem + 0.55vw, 1.25rem);
+  }
+  p {
+    font-size: clamp(0.75rem, 0.677rem + 0.36vw, 1rem);
+  }
+}
